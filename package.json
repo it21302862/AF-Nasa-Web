@@ -1,13 +1,10 @@
 {
-  "name": "se3040-assignment02-it21302862",
+  "name": "se3040-assignment02-it21251900",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "test": "jest --detectOpenHandles",
-    "test:all": "jest",
-    "test:specific": "jest --testPathPattern=%s",
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview"
@@ -20,12 +17,11 @@
     "@mui/x-date-pickers": "^7.3.1",
     "@tsparticles/all": "^3.3.0",
     "@tsparticles/react": "^3.0.0",
-    "antd": "^5.17.0",
+    "antd": "^5.16.5",
     "axios": "^1.6.8",
     "date-fns": "^3.6.0",
     "firebase": "^10.11.1",
-    "history": "^5.3.0",
-    "puppeteer": "^22.7.1",
+    "less": "^4.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-google-button": "^0.7.2",
@@ -33,11 +29,6 @@
     "react-router-dom": "^6.23.0"
   },
   "devDependencies": {
-    "@babel/preset-env": "^7.24.5",
-    "@babel/preset-react": "^7.24.1",
-    "@testing-library/jest-dom": "^6.4.5",
-    "@testing-library/react": "^15.0.6",
-    "@testing-library/user-event": "^14.5.2",
     "@types/react": "^18.2.66",
     "@types/react-dom": "^18.2.22",
     "@vitejs/plugin-react": "^4.2.1",
@@ -45,13 +36,8 @@
     "eslint-plugin-react": "^7.34.1",
     "eslint-plugin-react-hooks": "^4.6.0",
     "eslint-plugin-react-refresh": "^0.4.6",
-    "jest": "^29.7.0",
-    "jest-environment-jsdom": "^29.7.0",
-    "jest-puppeteer": "^5.0.0",
-    "jsdom": "^24.0.0",
     "postcss": "^8.4.38",
     "tailwindcss": "^3.4.3",
-    "ts-jest": "^29.1.2",
     "vite": "^5.2.0"
   }
 }
